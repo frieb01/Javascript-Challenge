@@ -102,6 +102,10 @@ select {
   min-width: 70px;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: rgb(88, 81, 94);
+}
+
 .loader {
   margin-top: 50px;
 }
